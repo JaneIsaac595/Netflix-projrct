@@ -1,0 +1,655 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    height: 700px;
+    width: 100%;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(hero-image.webp)
+
+}
+
+.net-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px 24px 48px;
+    margin: 0px 107px 0px 107px;
+}
+
+.net-head{
+    height: 48px;
+    width: 990px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* LOGO */
+
+.net-logo{
+    height:65px;
+ width: 92%;
+ 
+}
+
+.logo{
+    height:65px;
+    width: 148px;
+    background-image: url(Netflix-Logo.jpg);
+    background-size: cover;
+    opacity: 0.75rem;
+    
+}
+ 
+/* BUTTON */
+
+.net-button{
+    height: 32px;
+    width: 8%;
+}
+
+.net-signin{
+    height: 33px;
+    width: 77px;
+    background-color: #E50914;
+    border: 2px solid #E50914;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* hero-section  */
+
+.homepage{
+    height: 500px;
+    width:1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 235px;
+    width: 885px; */
+   
+}
+
+.hero-section{
+    height: 235px;
+    width: 885px;
+    color: white;
+    text-align: center;
+   
+}
+
+.home-h1{
+    font-size: 1.45rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    
+}
+
+.home-para{
+    font-size:1.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 16px;
+}
+
+.home-h3{
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.home-go{
+    height: 56px;
+    width:586px;
+    display: inline-flex;  
+    margin:16px 117px 0px 117px;
+}
+
+.home-email{
+    height:24px;
+    width:70%;
+    border: 2px solid rgba(78, 73, 73, 0.75);
+    border-radius: 9px;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    padding:1.5rem 1rem 0.5rem 1rem;
+}
+
+.home-button{
+    height: 56px;
+    width: 30%;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    background-color: #E50914;
+    border: 2px solid #E50914;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.home-button:hover{
+    background-color: #a10810;
+    border: #a10810;
+}
+
+#home-icon{
+    color: white;
+
+}
+
+/* TELEVISION-SECTION */
+
+.net-tv{
+    height: 363px;
+    padding: 72px 0px 72px 0px;
+    background-color: black;
+    border-top: 7px solid #363434;
+    border-bottom: 7px solid #363434;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-page{
+    display:contents;
+    margin: 0px 155px 0px 155px;
+    
+}
+
+.tv-text{
+    height:192px ;
+    width:485px ;
+}
+
+.tv-h2{
+ font-size: 3rem;
+ font-weight: 900;
+ font-family:sans-serif;
+ margin: 0px;
+}
+
+.tv-para{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 16px 0px 0px 0px;
+}
+
+.tv-media{
+height: 360px;
+width: 480px;
+}
+
+.tv-image{
+    height: 360px;
+    width: 480px; 
+    z-index: 1;
+    background-color: transparent;
+}
+
+.tv-video{
+    height:196px ;
+    width:350px ;
+    overflow: hidden;
+    position: relative;
+    bottom: 287px;
+    left: 62px;
+
+}
+
+/* DOWNLOAD-SECTION */
+
+.net-download{
+    height: 363px;
+    padding: 72px 0px 72px 0px;
+    background-color: black;
+    border-bottom: 7px solid #363434;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-page{
+    display:contents;
+    margin: 0px 155px 0px 155px; 
+}
+
+.download-text{
+    height:192px ;
+    width:485px ;  
+}
+
+.download-h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family:sans-serif;
+    margin: 0px;
+}
+
+.download-para{
+    font-size: 1.5rem;
+    font-weight: 400; 
+    margin: 16px 0px 0px 0px;
+}
+
+/* BAR-SECTION */
+
+.image-bar{
+    height:360px;
+     width:480px;
+}
+
+.bar{
+    height: 85px;
+    width: 240px;
+    background-color: black;
+    border: 2px solid #363434;
+    border-radius: 9px;
+    padding: 8px 12px 8px 12px;
+    position: relative;
+    left: 107px;
+    bottom: 125px;
+    display: flex;
+}
+
+.stranger-img{
+    margin-right: 16px;
+}
+
+
+.stranger-text{
+    height:82px ;
+    width:112px ;
+    display:inline-block;
+    position: relative;
+    top: 20px;
+}
+
+.stranger-download{
+  color: blue;
+  margin: 0px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  width: 119px;
+  
+}
+
+.stranger-h4{
+  margin: 0px;
+  font-size: 1.rem;
+  font-weight: 500;
+  width: 119px;  
+}
+
+.stranger-icon{
+ background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+  background-size: cover;
+  height: 60px;
+  width: 48px;
+  border: 1px solid black;
+  border-style: none;
+  position: relative;
+  top: 7px;
+}
+
+/* WATCH-SECTION */
+
+.net-watch{
+    height: 254px;
+    padding: 72px 0px 72px 0px;
+    background-color: black;
+    border-bottom: 7px solid #363434;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.watch-panel{
+    height:254px ;
+    width:855px ;  
+    margin: 0px 213px 0px 213px;
+    padding: 0px 5px 0px 5px;
+}
+
+.watch-text{
+    height:254px ;
+    width:50%; 
+}
+
+.watch-spacer{
+    height:254px ;
+    width:50% ; 
+    position: relative;
+    left: 412px;
+    bottom: 259px;
+}
+
+.watch-h2{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family:sans-serif;
+    margin: 0px;
+}
+
+.watch-para{
+    font-size: 1.5rem;
+    font-weight: 400; 
+    margin: 16px 0px 0px 0px;
+}
+
+/* KID-SECTION */
+
+.net-kid{
+   height: 254px;
+    padding: 72px 0px 72px 0px;
+    background-color: black;
+    border-bottom: 7px solid #363434;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.kid-page{
+    display:contents;
+    margin: 0px 155px 0px 155px; 
+}
+
+.kid-text{
+    height:192px ;
+    width:485px ;
+}
+
+.kid-h2{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family:sans-serif;
+    margin: 0px;
+}
+
+.kid-para{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 16px 0px 0px 0px;
+}
+
+/* QUESTION-SECTION */
+
+.net-ques{
+    height: 789px;
+    width: 100%;
+    border-bottom: 7px solid #363434;
+    background-color: black;
+    padding: 4.5rem 0rem 4.5rem 0rem;
+}
+.ques-page{
+    height: 785px;
+    width: 971;
+    margin: 0px 155px 0px 155px;
+}
+
+
+ .ques-h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    height: 62px;
+    width: 971px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+ }
+
+ .ques-info{
+    margin-top: 24px;
+ }
+
+.ques-button{
+    height:36px;
+    width: 923px;
+    color: white;
+    background-color: #363434;
+    border: 1px solid #363434;
+    border-style: none;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+}
+
+.ques-button:hover{
+    background-color: #494646;
+}
+
+.ques-span{
+   height: 30px; 
+   width: 314px;
+   font-size: 24px;
+   font-weight: 400;
+   font-family: sans-serif;
+}
+
+.ques-icon{
+    height: 36px;
+    width: 36px;
+    background-color: #363434;
+    border: 1px solid #363434;
+    border-style: none;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 21px;
+    padding: 3px;
+
+}
+
+.ques-icon:hover{
+    background-color: #494646;
+}
+
+.ques-icon:active{
+    rotate: 45deg;
+}
+
+.ques-login{
+    height: 102px;
+    width: 907px;
+    padding: 0px 32px 0px 32px;
+    margin-top:47px;
+}
+
+.ques-h3{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px;
+} 
+
+.ques-go{
+    height: 56px;
+    width:586px;
+    display:flex;  
+    margin:16px 117px 0px 117px;
+    position: relative;
+    left: 41px;
+}
+
+.ques-email{
+    height:24px;
+    width:70%;
+    border: 2px solid rgba(78, 73, 73, 0.75);
+    border-radius: 9px;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    padding:1.5rem 1rem 0.5rem 1rem;
+}
+
+.ques-start{
+    height: 56px;
+    width: 30%;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    background-color: #E50914;
+    border: 2px solid #E50914;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.ques-start:hover{
+    background-color: #a10810;
+    border: #a10810;
+}
+
+/* CONTACT-SECTION */
+
+.net-contact{
+    height: 394px;
+    background-color: black;
+    color:rgba(238, 226, 226, 0.822);
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-family: sans-serif;
+
+}
+
+.contact-page{
+    height: 264px;
+    width: 907px;
+    display:inline-block;
+    padding: 0px 48px 0px 48px;
+    margin: 72px 136px 72px 136px; 
+}
+
+.contact-anchor{
+    height: 32px;
+    width:100%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    text-decoration: underline rgba(238, 226, 226, 0.822);
+}
+
+.contact-text{
+    height: 136px;
+    width: 983px;
+    margin: -16px 0px 20px -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline rgba(238, 226, 226, 0.822);
+}
+
+.contact-list{
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    height: 18px;
+    width: 234px;
+    margin: 16px 0px 0px 12px;
+}
+
+.contact-select{
+    height: 50px;
+    width: 980px;
+    color:rgba(238, 226, 226, 0.25);
+
+}
+
+.consel{
+    height: 28px;
+    width: 112px;
+    padding: 6px 36px;
+    color:rgba(238, 226, 226, 0.822);
+    background-color: transparent;
+    border: 1px solid rgba(238, 226, 226, 0.822);
+    border-radius: 5px;
+}
+
+.sel-lang{
+    color:rgba(238, 226, 226, 0.822);
+    background-color: transparent;
+    border-style:none;
+}
+
+.contact-pak{
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
